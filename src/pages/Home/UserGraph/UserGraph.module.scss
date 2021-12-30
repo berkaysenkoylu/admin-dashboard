@@ -1,0 +1,18 @@
+@import "../../../variables";
+
+.UserGraph {
+    padding: 2rem;
+    grid-area: item2;
+    box-shadow: $shadow-custom-2;
+    display: flex;
+    flex-direction: column;
+
+    &__Header {
+        margin-bottom: 2rem;
+
+        h2 {
+            font-weight: 700;
+            font-size: $small-header-font-size;
+        }
+    }
+}

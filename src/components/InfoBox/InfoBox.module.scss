@@ -1,0 +1,15 @@
+@import "../../variables";
+
+.InfoBox {
+    padding: 2rem;
+    box-shadow: $shadow-custom-2;
+
+    &__Header {
+        margin-bottom: 2rem;
+
+        h2 {
+            font-weight: 400;
+            font-size: $default-header-font-size;
+        }
+    }
+}
